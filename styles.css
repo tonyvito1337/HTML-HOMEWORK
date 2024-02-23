@@ -1,0 +1,82 @@
+body {
+    background-color: lightcyan;
+    font-family: sans-serif;
+    padding: 20px;
+}
+h1, h2, h3 {
+    font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+p {
+    font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.sec {
+  text-align: center;
+}
+.ter {
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+input, textarea {
+    background-color: lightsteelblue;
+    border: 1px solid lightsteelblue;
+    color: #ffffff;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+  }
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  h4 {
+    font-size: 20px;
+    text-align: center;
+}
